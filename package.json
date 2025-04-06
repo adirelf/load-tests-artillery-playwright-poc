@@ -1,0 +1,12 @@
+{
+    "name": "playwright-artillery",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "npx artillery run load-test.yml"
+    },
+    "dependencies": {
+        "artillery": "^2.0.10",
+        "axios": "^1.6.0",
+        "playwright": "^1.51.1"
+    }
+}

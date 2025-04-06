@@ -1,0 +1,9 @@
+config:
+  target: "https://your-site.com"
+  phases:
+    - duration: 1
+      arrivalRate: 2
+  processor: "tests/playwright-login.js"
+scenarios:
+  - flow:
+      - function: "playwrightScript"
